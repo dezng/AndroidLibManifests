@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest>
+    <!-- remote server -->
+    <remote
+        name="github"
+        fetch="https://github.com" />
+    <remote
+        name="rx"
+        fetch="https://github.com/ReactiveX" />
+    <remote
+        name="square"
+        fetch="https://github.com/square" />
+
+    <default
+        remote="github"
+        revision="master"
+        sync-j="1" />
+
+    <!-- RxJava -->
+    <project
+        name="RxJava"
+        group="android,rx"
+        path="lib/RxJava"
+        remote="rx"
+        revision="2.x" />
+    <!-- RxAndroid -->
+    <project
+        name="RxAndroid"
+        group="android,rx"
+        path="lib/RxAndroid"
+        remote="rx"
+        revision="2.x" />
+
+    <!-- OkHttp -->
+    <project
+        name="okhttp"
+        group="android,square"
+        path="lib/OkHttp"
+        remote="square" />
+
+    <!-- LeakCanary -->
+    <project
+        name="leakcanary"
+        group="android,square"
+        path="lib/LeakCanary"
+        remote="square" />
+
+    <!-- Retrofit -->
+    <project
+        name="retrofit"
+        group="android,square"
+        path="lib/Retrofit"
+        remote="square" />
+
+    <!-- Glide -->
+    <project
+        name="bumptech/glide"
+        group="android,bumptech"
+        path="lib/Glide"/>
+</manifest>
