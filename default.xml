@@ -58,4 +58,10 @@
         name="bumptech/glide"
         group="android,bumptech"
         path="lib/Glide"/>
+
+    <!-- Volley -->
+    <project
+        name="google/volley"
+        group="android,google"
+        path="lib/Volley"/>
 </manifest>
